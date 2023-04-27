@@ -57,11 +57,6 @@ jobs:
           Section: luci
           Description: Luci app for AdGuardHome
           EOF
-          chmod +x /tmp/$PKGNAME/CONTROL/conffiles
-          chmod +x /tmp/$PKGNAME/CONTROL/postinst
-          chmod +x /tmp/$PKGNAME/CONTROL/postinst-pkg
-          chmod +x /tmp/$PKGNAME/CONTROL/prerm
-          chmod +x /tmp/$PKGNAME/CONTROL/prerm-pkg
           wget -O /tmp/ipkg-build https://raw.githubusercontent.com/openwrt/openwrt/v19.07.1/scripts/ipkg-build && \
           chmod +x /tmp/ipkg-build && \
           /tmp/ipkg-build -o root -g root /tmp/$PKGNAME /tmp
