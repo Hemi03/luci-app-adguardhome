@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - master
+      - de_language
     paths:
       - '.github/workflows/main.yml'
       - 'luasrc/**'
