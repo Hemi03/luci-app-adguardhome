@@ -57,7 +57,6 @@ jobs:
           Section: luci
           Description: Luci app for AdGuardHome
           EOF
-          cp -R $GITHUB_WORKSPACE/CONTROL/* /tmp/$PKGNAME/CONTROL/
           chmod +x /tmp/$PKGNAME/CONTROL/conffiles
           chmod +x /tmp/$PKGNAME/CONTROL/postinst
           chmod +x /tmp/$PKGNAME/CONTROL/postinst-pkg
