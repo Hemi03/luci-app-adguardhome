@@ -1,0 +1,311 @@
+
+msgid ""
+msgstr ""
+
+#/cgi-bin/luci/admin/services/AdGuardHome
+msgid "Base Setting"
+msgstr "Standart Einstellung"
+
+msgid "Log"
+msgstr "Protokoll"
+
+msgid "Manual Config"
+msgstr "Nutzer Einstellung"
+
+msgid "Free and open source, powerful network-wide ads & trackers blocking DNS server."
+msgstr "Gratis und Open Source, starker Netzwerk weiter DNS Server, um Werbung und Tracker zu blockieren"
+
+msgid "RUNNING"
+msgstr "LÄUFT"
+
+msgid "NOT RUNNING"
+msgstr "AUSGESCHALTET"
+
+msgid "Redirected"
+msgstr "Umleitend"
+
+msgid "Not redirect"
+msgstr "Gestopptes Umleiten"
+
+msgid "Collecting data..."
+msgstr "Sammle Daten ..."
+
+msgid "Enable"
+msgstr "Freischalten"
+
+msgid "Browser management port"
+msgstr "Management-Websiten Port"
+
+msgid "Update"
+msgstr "Aktualisieren"
+
+#button change
+msgid "Update core version"
+msgstr "Aktualliert Core Version"
+
+msgid "Check..."
+msgstr "Überprüfe ..."
+
+msgid "Updated"
+msgstr "Aktualisiert"
+
+#button hide
+msgid "Force update"
+msgstr "Aktualisierung erzwingen"
+
+msgid "Fast config"
+msgstr "Schnelleinstellung"
+
+msgid "core version:"
+msgstr "Core Version:"
+
+#description change
+msgid "no config"
+msgstr "Keine Einstellung"
+
+msgid "no core"
+msgstr "Kein Core"
+
+msgid "Redirect"
+msgstr "Umleiten"
+
+#inlist
+msgid "none"
+msgstr "Nichts"
+
+msgid "Run as dnsmasq upstream server"
+msgstr "Starte als dnsmasq Upstream-Server"
+
+msgid "Redirect 53 port to AdGuardHome"
+msgstr "Leite Port 53 zu AdGuardHome um"
+
+msgid "Use port 53 replace dnsmasq"
+msgstr "Nutze Port 53 und ersetze dnsmasq"
+
+msgid "AdGuardHome redirect mode"
+msgstr "AdGuardHome Umleit-Modus"
+
+msgid "Bin Path"
+msgstr "Bin Patch"
+
+msgid "AdGuardHome Bin path if no bin will auto download"
+msgstr "AdGuardHome Binary Pfad, ohne Binary wird automatisch ein heruntergeladen"
+
+msgid "choose Arch for download"
+msgstr "wähle den Arch für den Download"
+
+msgid "Need to save to config first before downloading."
+msgstr "Vor dem Download muss die Configuration gesichert werden"
+
+msgid "use upx to compress bin after download"
+msgstr "Nutze upx für die Komprimierung nach dem Download der Binary"
+
+#inlist
+msgid "compress faster"
+msgstr "Schnelle Komprimierung"
+
+msgid "compress better"
+msgstr "Bessere Komprimierung"
+
+msgid "compress best(can be slow for big files)"
+msgstr "Beste Komprimierung(kann langsam sein)"
+
+msgid "try all available compression methods & filters [slow]"
+msgstr "Teste alle vorhandenen Komprimierungen und Filter[langsam]"
+
+msgid "try even more compression variants [very slow]"
+msgstr "Teste noch mehr Komprimierungen[sehr langsam]"
+
+msgid "bin use less space,but may have compatibility issues"
+msgstr "Binary am kleinsten, kann aber Kompatibilitäts Probleme haben"
+
+msgid "Config Path"
+msgstr "Konfigurations Pfad"
+
+msgid "AdGuardHome config path"
+msgstr "AdGuardHome Konfigurations Pfad"
+
+msgid "Work dir"
+msgstr "Arbeitsverzeichnis"
+
+msgid "AdGuardHome work dir include rules,audit log and database"
+msgstr "AdGuardHome Arbeitsverzeichnis mit Regeln, Audit Logs und Datenbank"
+
+msgid "Runtime log file"
+msgstr "Laufzeit Protokoll Datei"
+
+msgid "AdGuardHome runtime Log file if 'syslog': write to system log;if empty no log"
+msgstr "AdGuardHome Laufzeit Protokoll wenn 'syslog': schreibe in das System Protokoll;wenn leer kein Protokoll"
+
+msgid "Verbose log"
+msgstr "Ausführliches Protokoll"
+
+#hide div
+msgid "Add gfwlist"
+msgstr "Anfügen gfwlist"
+
+msgid "Add"
+msgstr "Ergänzen"
+
+msgid "Added"
+msgstr "Hinzugefügt"
+
+msgid "Not added"
+msgstr "Nicht Hinzugefügt"
+
+#hide div
+msgid "Del gfwlist"
+msgstr "Lösche gfwlist"
+
+msgid "Del"
+msgstr "Lösche"
+
+msgid "will set to name gfwlist"
+msgstr "Setzt Name zu gfwlist"
+
+msgid "(ipset only)"
+msgstr "(nur ipset)"
+
+#hide div
+msgid "Gfwlist upstream dns server"
+msgstr "Gfwlist upstream DNS Server"
+
+msgid "Gfwlist domain upstream dns service"
+msgstr "Gfwlist Domain upstream DNS Service"
+
+#hide div
+msgid "Change browser management password"
+msgstr "Ändere Browser Management Password"
+
+msgid "Culculate"
+msgstr "Berechne"
+
+##button change
+msgid "Load culculate model"
+msgstr "Berechne Model"
+
+msgid "loading..."
+msgstr "Lade ..."
+
+msgid "Please save/apply"
+msgstr "Bitte Speichern/Bestätigen"
+
+msgid "is empty"
+msgstr "ist leer"
+
+msgid "Press load culculate model and culculate finally save/apply"
+msgstr "Betätige 'Berechne Model' und 'Berechne' danach 'Speichern/Bestätigen'"
+
+msgid "Keep files when system upgrade"
+msgstr "Behalte Dateien bei System Aktualisierung"
+
+#checkbox
+msgid "core bin"
+msgstr "Core Binary"
+
+msgid "config file"
+msgstr "Konfigurations Datei"
+
+msgid "log file"
+msgstr "Protokoll Datei"
+
+msgid "querylog.json"
+msgstr "querylog.json"
+
+msgid "On boot when network ok restart"
+msgstr "Bei Systemstart, wenn Netzwerk ok, Neustarten"
+
+msgid "Backup workdir files when shutdown"
+msgstr "Bei Herunterfahren, workdir Dateien sichern"
+
+msgid "Will be restore when workdir/data is empty"
+msgstr "Wiederherstellen wenn workdir/data leer ist"
+
+msgid "Backup workdir path"
+msgstr "Sichern des workdir Pfades"
+
+msgid "Crontab task"
+msgstr "Crontab Aufgaben"
+
+msgid "Auto update core"
+msgstr "Autoupdate Core"
+
+msgid "Auto tail querylog"
+msgstr "Verfolge/Tail querylog"
+
+msgid "Auto tail runtime log"
+msgstr "Verfolge/Tail Laufzeit Protokoll"
+
+msgid "Auto update ipv6 hosts and restart adh"
+msgstr "Autoupdate ipv6 Hosts und starte ADH neu"
+
+msgid "Auto update gfwlist and restart adh"
+msgstr "Autoupdate gfwlist und start ADH neu"
+
+msgid "Auto update ipset list and restart adh"
+msgstr "Autoupdate ipset Liste und starte ADH neu"
+
+msgid "Please change time and args in crontab"
+msgstr "Bitte ändere Zeit und Args in Crontab"
+
+#download option
+msgid "Choose Release Version for download"
+msgstr "Wähle Release Version für den Download"
+
+msgid "Release(Default)"
+msgstr "Release(Standart)"
+
+msgid "Beta"
+msgstr "Beta"
+
+msgid "If this option is modified, please confirm the download links"
+msgstr "Wenn diese Option ausgewählt ist, überprüfe bitte den Download-Link"
+
+msgid "Download links for update"
+msgstr "Download-Links für Updates"
+
+#/cgi-bin/luci/admin/services/AdGuardHome/log/
+msgid "reverse"
+msgstr "zurücksetzen"
+
+msgid "localtime"
+msgstr "Ortszeit"
+
+msgid "Please add log path in config to enable log"
+msgstr "Bitte gebe Protokoll-Pfad in Konfiguration an, um Protokoll zu aktivieren"
+
+msgid "dellog"
+msgstr "dellog"
+
+msgid "download log"
+msgstr "Protokoll herunterladen"
+
+#/cgi-bin/luci/admin/services/AdGuardHome/manual/
+msgid "Use template"
+msgstr "Nutze ein Template"
+
+#hide button
+msgid "Reload Config"
+msgstr "Konfiguration Neuladen"
+
+msgid "WARNING!!! no bin found apply config will not be test"
+msgstr "WARNUNG!!! keine Binary gefunden Konfiguration wird nicht getestet"
+
+#unused
+msgid "Change browser management username"
+msgstr "Ändere Browser Management Nutzer Name"
+
+msgid "Username"
+msgstr "Nutzername"
+
+msgid "Check Config"
+msgstr "Überprüfe Konfiguration"
+
+msgid "unknown"
+msgstr "unbekannt"
+
+msgid "Keep database when system upgrade"
+msgstr "Behalte Datenbank wenn System Aktualisiert wird"
+
+msgid "Boot delay until network ok"
+msgstr "Systemstart verzögern bis Netzwerk verbunden is"
