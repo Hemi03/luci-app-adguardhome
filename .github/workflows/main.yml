@@ -44,7 +44,7 @@ jobs:
           wget -O /tmp/po2lmo/template_lmo.h https://raw.githubusercontent.com/openwrt/luci/openwrt-18.06/modules/luci-base/src/template_lmo.h && \
           wget -O /tmp/po2lmo/template_lmo.c https://raw.githubusercontent.com/openwrt/luci/openwrt-18.06/modules/luci-base/src/template_lmo.c && \
           cd /tmp/po2lmo && make po2lmo && \
-          ./po2lmo $GITHUB_WORKSPACE/po/zh-cn/$PKGNAME_SHORT.po /tmp/$PKGNAME/usr/lib/lua/luci/i18n/$PKGNAME_SHORT.zh-cn.lmo &&
+          ./po2lmo $GITHUB_WORKSPACE/po/zh-cn/$PKGNAME_SHORT.po /tmp/$PKGNAME/usr/lib/lua/luci/i18n/$PKGNAME_SHORT.zh-cn.lmo && \
           ./po2lmo $GITHUB_WORKSPACE/po/de/$PKGNAME_SHORT.po /tmp/$PKGNAME/usr/lib/lua/luci/i18n/$PKGNAME_SHORT.de.lmo
           mkdir -p /tmp/$PKGNAME/CONTROL
           cat >/tmp/$PKGNAME/CONTROL/control <<EOF
